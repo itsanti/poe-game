@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+<meta charset=utf-8>
+    <title>Sample HTML5 Structure</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src='recipes.js'></script>
+    <style>
+        #rec-wrapper {min-height: 125px;padding:5px;}
+        h3 {margin:0;padding: 0;}
+        table {min-width: 900px;border-collapse: collapse;}
+        table, td {border:1px dashed #ccc; }
+    </style>
+</head>
+<body>
+<p>Вещи, которые нужно знать:
+<ul>
+    <li>Implicit mods - свойства предмета, которые у него есть изначально (без модификаторов). Такие моды не влияют на цену предмета.</li>
+    <li>Полное имя предмета записывается в формате <a href="affix.html"><strong>X Item of Y</strong></a></li>
+    <li>Вещи с перфектными модами продаются дороже.</li>
+</ul>
+</p>
+<p>Некоторые полезные рецепты: <select id="rec-select"></select></p>
+<div id="rec-wrapper"></div>
+<hr>
+<p>Полный список рецептов на wiki: <a href="http://en.pathofexilewiki.com/wiki/Vendor_Recipes">Vendor Recipes - PoE wiki</a></p>
+<p>Полный список аффиксов и их параметры: <a href="http://en.pathofexilewiki.com/wiki/Prefix">Affix - PoE wiki</a></p>
+<p>Ветка с рецептами на форуме: <a href="http://www.pathofexile.com/forum/view-thread/15223">The Exiled Sale Recipe Book (spoilers) - PoE forum</a></p>
+<p>Модификаторы вещей: <a href="http://www.pathofexile.com/item-data">PoE off</a></p>
+</body>
+</html>
