@@ -1,0 +1,20 @@
+h1 {text-shadow: 0px 1px 1px #4d4d4d;font-size:20px;}
+
+h2 {text-shadow: 0px 1px 1px #4d4d4d;}
+.weapon {border: 1px dashed #333;margin-bottom:10px;}
+.weapon p {padding:0 5px 5px 5px;}
+.weapon h3 {text-align: center;background-color: #ffbf00;
+    border-bottom:1px solid black;margin:0; }
+.weapon h3::before {content: '\00A7'; float: left; margin-left: 10px;}
+
+#cur table {border-collapse: collapse; min-width: 910px;}
+#cur caption { margin-top:10px; border:1px solid black;
+    border-bottom:none; background-color: #efd334;
+    font-weight: bold; font-size: 20px;}
+#cur table, td, th { border:1px solid black; }
+#cur th { text-align: center; }
+#cur th:first-child, td:first-child { width: 83px; text-align: center;}
+#cur th:last-child, td:last-child { width: 460px;}
+#cur tr:nth-child(odd) { background-color: #ddd; }
+#cur tr > th { background-color: #1560bd; color: #fff;}
+#cur .chart img { width: 40px; vertical-align: middle; margin: 0 5px;}
